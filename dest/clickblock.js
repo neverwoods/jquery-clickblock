@@ -154,3 +154,7 @@ ClickBlock.prototype;
         }
     });
 })(jQuery);
+
+jQuery(function ($) {
+    $('[data-clickblock]').clickblock();
+});
