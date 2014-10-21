@@ -2,8 +2,13 @@
 
 Simple jQuery 'plugin' package to make block elements clickable based on their first child anchor
 
+## Installation
+
+Use `bower install --save jquery-clickblock`
+
 ### CHANGELOG
 
+- 2.4.4    Added autmatic basic initialization for all elements with `data-clickblock` as an attribute (Bootstrap style)
 - 2.3.4    First GitHub & Bower release
 - 2.3.2    Fixed bug where rel='external' wasn't reset on elements that arent originally external links.
 - 2.3.1    Removed 'throw new Error' when element could not be found in DOM. This ensures backwards compatibility and enables
