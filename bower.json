@@ -1,12 +1,12 @@
 {
   "name": "jquery-clickblock",
-  "version": "2.4.4",
+  "version": "2.4.5",
   "homepage": "https://github.com/neverwoods/jquery-clickblock",
   "authors": [
     "Robin van Baalen <robin@neverwoods.com>"
   ],
   "description": "Simple jQuery 'plugin' package to make block elements clickable based on their first child anchor",
-  "main": "dest/clickblock.js",
+  "main": "dist/clickblock.js",
   "moduleType": [
     "globals"
   ],
